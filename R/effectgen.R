@@ -67,6 +67,5 @@ generateRetailData <-
                    list(mydf, wedf, codf, madf, didf, prdf, netdf, impdf, cpmdf))
 
     # This only covers the retail revenue case!!!
-    e_prdf <- t(t(prdf[,-1]^2) * runif(length(priceNames), 0.5, 1.5))
-    # e_didf <-
+    # e_prdf <- t(t(prdf[,-1]^2) * runif(length(priceNames), 0.5, 1.5))
   }
